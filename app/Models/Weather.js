@@ -12,10 +12,10 @@ export default class Weather{
     <div class="text-center mt-2"><h5> - ${this.temp} </h5></div>
     <div class="text-center mt-2"><h5> Humidity: ${this.humidity} </h5></div>
     </div>
-    <button onclick="app.weatherController.celsius(${this.temp})">Celsius</button>
     `
   }
-
+  
+  // <button onclick="app.weatherController.celsius('${this.temp}')">Celsius</button>
 
 
 }
