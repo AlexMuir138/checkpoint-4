@@ -26,10 +26,7 @@ class SandboxService{
     ProxyState.userToDo = ProxyState.userToDo.filter(utd => utd.id != toDoId)
   }
 
-  async totalCount(){
-    return 
-    
-  }
+  
 
   async toggleChecked(toDoId, state){
     await sandboxApi.put(toDoId, {completed: state})
